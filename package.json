@@ -1,7 +1,7 @@
 {
   "name": "nestjs-seeder",
-  "version": "0.3.2",
-  "description": "An extension library for NestJS to perform seeding.",
+  "version": "0.3.3",
+  "description": "An extension library for NestJS to perform seeding. With an async fix.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "directories": {
@@ -14,16 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edwardanthony/nestjs-seeder"
+    "url": "git+https://github.com/DmitryPorotov/nestjs-seeder"
   },
-  "bugs": "https://github.com/edwardanthony/nestjs-seeder/issues",
-  "homepage": "https://github.com/edwardanthony/nestjs-seeder#readme",
+  "bugs": "https://github.com/DmitryPorotov/nestjs-seeder/issues",
+  "homepage": "https://github.com/DmitryPorotov/nestjs-seeder#readme",
   "keywords": [
     "seeding",
     "seeder",
     "seed",
-    "nestjs",
-    "seeder"
+    "nestjs"
   ],
   "author": "Edward Anthony <edwardanthony@fastmail.com>",
   "license": "MIT",
