@@ -5,6 +5,6 @@ export interface SeederOptions {
     providers?: Provider[];
 }
 export interface SeederRunner {
-    run(seeders: Provider<Seeder>[]): void;
+    run(seeders: Provider<Seeder>[]): Promise<void>;
 }
 export declare const seeder: (options: SeederOptions) => SeederRunner;
